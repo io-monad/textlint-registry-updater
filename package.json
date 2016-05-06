@@ -1,6 +1,6 @@
 {
   "name": "@io-monad/textlint-registry-updater",
-  "version": "0.0.0",
+  "version": "0.0.0-placeholder",
   "description": "Updater for textlint-registry",
   "homepage": "https://github.com/io-monad/textlint-registry-updater#readme",
   "bugs": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/io-monad/textlint-registry-updater.git"
+    "url": "https://github.com/io-monad/textlint-registry-updater.git"
   },
   "scripts": {
     "build": "babel src -d lib --source-maps",

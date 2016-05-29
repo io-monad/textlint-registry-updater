@@ -57,7 +57,10 @@ export default class UpdateIssue {
   getIssues() {
     if (!this.issuesPromise) {
       this.issuesPromise = promisify(cb => {
-        this.repo.issues({ labels: this.issueLabel }, cb);
+        this.repo.issues({
+          labels: this.issueLabel,
+          state: "open"
+        }, cb);
       });
     }
     return this.issuesPromise;

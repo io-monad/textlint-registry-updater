@@ -20,5 +20,6 @@ export default {
     "textlint-rule-helper",
     "spellcheck-tech-word-textlint-rule",
     "textlint-rule-spellcheck-growthbeat-word",
+    "textlint-filter-rule-comments"
   ]
 };
